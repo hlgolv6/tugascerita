@@ -1,0 +1,91 @@
+body{
+    background-image: url(bg/bg4.jpg);
+    background-size: cover;
+
+}
+
+.button {
+    
+    transition: all 0.6s ease-in-out;
+}
+
+.button:hover {
+    transform: translateY(-5px);
+    background: transparent;
+}
+
+.disney h1 {
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Unna', serif;
+    font-size: 100px;
+}
+
+.disney p {
+    font-size: 15px;
+}
+
+.foto {
+    width: 300px; height: 420px; display: inline-block; border-radius: 5px; padding: 10px 20px; box-sizing: border-box; margin: 10px; margin-top: 50px; cursor: pointer; background-position: center; background-size: cover; border: 2px solid white; transition: 0.8s; box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+}
+.moana {
+    background-image: url(bg/moana.jpeg);
+}
+.rapunzel {
+    background-image: url(bg/rapunzel2.jpg);
+}
+.encanto {
+    background-image: url(bg/encanto2.jpg);
+}
+.frozen {
+    background-image: url(bg/frozen1.jpg);
+}
+.foto:hover {
+    transform: translateY(-10px); box-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
+
+/* handphone */
+@media (max-width:576px) {
+    body{
+        background-image: url(bg/bg4.jpg);
+        background-size: cover;
+    }
+    
+    .button {
+        
+        transition: all 0.6s ease-in-out;
+    }
+    
+    .button:hover {
+        transform: translateY(-5px);
+        background: transparent;
+    }
+    
+    .disney h1 {
+        font-family: 'Rubik', sans-serif;
+        font-family: 'Unna', serif;
+        font-size: 70px;
+    }
+    
+    .disney p {
+        font-size: 10px;
+    }
+    
+    .foto {
+        width: 200px; height: 320px; display: inline-block; border-radius: 5px; padding: 10px 20px; box-sizing: border-box; margin: 10px; margin-top: 50px; cursor: pointer; background-position: center; background-size: cover; border: 2px solid white; transition: 0.8s; box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+    }
+    .moana {
+        background-image: url(bg/moana.jpeg);
+    }
+    .rapunzel {
+        background-image: url(bg/rapunzel2.jpg);
+    }
+    .encanto {
+        background-image: url(bg/encanto2.jpg);
+    }
+    .frozen {
+        background-image: url(bg/frozen1.jpg);
+    }
+    .foto:hover {
+        transform: translateY(-10px); box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    }
+}

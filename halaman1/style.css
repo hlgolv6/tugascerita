@@ -1,0 +1,24 @@
+body{
+    background-image: url(moana/background1.jpg);
+}
+
+img {
+  width: 20%;
+}
+
+.moana img:hover {
+  width: 25%;
+  transition:2s ease;
+}
+
+/* handphone */
+@media (max-width:576px) {
+  img {
+    width: 35%;
+  }
+  
+  .moana img:hover {
+    width: 45%;
+    transition:2s ease;
+  }
+}

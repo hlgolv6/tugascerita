@@ -1,0 +1,44 @@
+body{
+    background-image: url(rapunzel/bgrapunzel.jpg);
+    background-size: cover;
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 100px;
+}
+
+img {
+  float: right;
+  width: 20%;
+}
+
+.rapunzel img:hover {
+  width: 25%;
+  transition:2s ease;
+}
+
+/* handphone */
+@media (max-width:576px){
+  body{
+    background-image: url(rapunzel/bgrapunzel.jpg);
+    background-size: cover;
+    margin: 5px;
+    padding: 5px;
+    margin-bottom: 100px;
+  }
+
+  .cerita p{
+    margin-top: auto;
+  }
+
+  img {
+    width: 35%;
+    align-items: center;
+    display: block;
+    margin: auto;
+  }
+
+  .rapunzel img:hover {
+    width: 45%;
+    transition:2s ease;
+  }
+  }

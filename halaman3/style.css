@@ -1,0 +1,95 @@
+body{
+    background-image: url(encanto/bgencanto.jpg);
+    margin-right: 180px;
+    margin-left: 10px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 155px;
+    font-weight: 400;
+    height: 100%;
+    z-index: 1000;
+}
+
+img {
+   float: left;
+   width: 25%;
+   height: auto;
+   margin: 20px;
+}
+
+.encanto img:hover {
+    width: 30%;
+    transition:2s ease;
+}
+
+/* tablet */
+@media screen and (min-width:721px) and (max-width:1080px){
+  body{
+    background-image: url(encanto/bgencanto.jpg);
+    margin-right: 180px;
+    margin-left: 10px;
+    background-size: cover;
+    
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 155px;
+    font-weight: 400;
+    height: 100%;
+    z-index: 1000;
+}
+
+img {
+   float: left;
+   width: 25%;
+   height: auto;
+   margin: 20px;
+}
+
+.encanto img:hover {
+    width: 30%;
+    transition:2s ease;
+}
+}
+
+/* handphone */
+@media (max-width:576px) {
+    
+    body{
+      background-image: url(encanto/bgencanto.jpg);
+      margin-right: 90px;
+      margin-left: 5px;
+      background: cover;
+      
+      }
+
+    .navbar {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 90px;
+        font-weight: 10px;
+        height: 100%;
+      }
+
+    .img {
+        float: left;
+        width: 45%;
+        height: auto;
+        margin: 10px;
+      }
+
+    .encanto img:hover {
+          width: 50%;
+          transition:1s ease;
+      }
+  }
